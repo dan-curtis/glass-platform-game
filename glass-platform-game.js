@@ -172,17 +172,17 @@ function drawPlatform() {
 
 
   function keyDownHandler(e) {
-    if (e.key == "Left" || e.key == "ArrowLeft") {
+    if (e.key == "Left" || e.key == "ArrowLeft"|| e.key == "a") {
       leftPressed = true;
-    } else if (e.key == "Right" || e.key == "ArrowRight") {
+    } else if (e.key == "Right" || e.key == "ArrowRight"|| e.key == "d") {
       rightPressed = true;
     }
   }
   
   function keyUpHandler(e) {
-    if (e.key == "Left" || e.key == "ArrowLeft") {
+    if (e.key == "Left" || e.key == "ArrowLeft"|| e.key == "a") {
       leftPressed = false;
-    } else if (e.key == "Right" || e.key == "ArrowRight") {
+    } else if (e.key == "Right" || e.key == "ArrowRight"|| e.key == "d") {
       rightPressed = false;
     }
   }
